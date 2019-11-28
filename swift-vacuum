@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+
+import swift_vacuum
+import sys
+
+sys.exit(swift_vacuum.main(sys.argv))
