@@ -1,0 +1,17 @@
+A repository of small scriptlets for OpenStack Swift
+
+swift-vacuum
+swift-vacuum.py
+   Run "vacuum;" .db files
+   This was the first scriptlet, so it gave the repository its name.
+
+rsyncd-matrix.py
+   Compute the bandwidth of rsyncd
+   This is used to make matrix of node-to-node and find bad network
+   links and/or nodes at a glance. It should compute the matrix itself
+   but does not.
+
+swift-put-count.py
+   Sum up lengths of PUT requests
+   This helps to see what's streaming into the cluster. Can be adapted
+   to compute aggregate bandwidth and the breakdown by size.
